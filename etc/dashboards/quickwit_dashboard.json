@@ -25,7 +25,7 @@
     {
       "datasource": {
         "type": "quickwit-quickwit-datasource",
-        "uid": "f31546e7-3b2e-4b17-8c77-cd84f38011c9"
+        "uid": "quickwit"
       },
       "description": "",
       "fieldConfig": {
@@ -89,7 +89,7 @@
           ],
           "datasource": {
             "type": "quickwit-quickwit-datasource",
-            "uid": "f31546e7-3b2e-4b17-8c77-cd84f38011c9"
+            "uid": "quickwit"
           },
           "metrics": [
             {
@@ -122,7 +122,7 @@
     {
       "datasource": {
         "type": "quickwit-quickwit-datasource",
-        "uid": "f31546e7-3b2e-4b17-8c77-cd84f38011c9"
+        "uid": "quickwit"
       },
       "fieldConfig": {
         "defaults": {
@@ -192,7 +192,7 @@
           ],
           "datasource": {
             "type": "quickwit-quickwit-datasource",
-            "uid": "f31546e7-3b2e-4b17-8c77-cd84f38011c9"
+            "uid": "quickwit"
           },
           "metrics": [
             {
@@ -200,7 +200,7 @@
               "type": "count"
             }
           ],
-          "query": "",
+          "query": "span_kind:2 AND service_name:$app",
           "refId": "5XX",
           "timeField": "span_start_timestamp_nanos"
         }
@@ -212,7 +212,7 @@
     {
       "datasource": {
         "type": "quickwit-quickwit-datasource",
-        "uid": "f31546e7-3b2e-4b17-8c77-cd84f38011c9"
+        "uid": "quickwit"
       },
       "description": "request amount distribution",
       "fieldConfig": {
@@ -282,7 +282,7 @@
           ],
           "datasource": {
             "type": "quickwit-quickwit-datasource",
-            "uid": "f31546e7-3b2e-4b17-8c77-cd84f38011c9"
+            "uid": "quickwit"
           },
           "metrics": [
             {
@@ -301,7 +301,7 @@
     {
       "datasource": {
         "type": "quickwit-quickwit-datasource",
-        "uid": "f31546e7-3b2e-4b17-8c77-cd84f38011c9"
+        "uid": "quickwit"
       },
       "description": "cumulative latency distribution",
       "fieldConfig": {
@@ -371,7 +371,7 @@
           ],
           "datasource": {
             "type": "quickwit-quickwit-datasource",
-            "uid": "f31546e7-3b2e-4b17-8c77-cd84f38011c9"
+            "uid": "quickwit"
           },
           "metrics": [
             {
@@ -391,7 +391,7 @@
     {
       "datasource": {
         "type": "quickwit-quickwit-datasource",
-        "uid": "f31546e7-3b2e-4b17-8c77-cd84f38011c9"
+        "uid": "quickwit"
       },
       "description": "overall request rate per minute over last 3 minutes",
       "fieldConfig": {
@@ -452,7 +452,7 @@
           ],
           "datasource": {
             "type": "quickwit-quickwit-datasource",
-            "uid": "f31546e7-3b2e-4b17-8c77-cd84f38011c9"
+            "uid": "quickwit"
           },
           "metrics": [
             {
@@ -471,7 +471,7 @@
     {
       "datasource": {
         "type": "quickwit-quickwit-datasource",
-        "uid": "f31546e7-3b2e-4b17-8c77-cd84f38011c9"
+        "uid": "quickwit"
       },
       "description": "percentage of HTTP status 5xx in all requests",
       "fieldConfig": {
@@ -546,7 +546,7 @@
           ],
           "datasource": {
             "type": "quickwit-quickwit-datasource",
-            "uid": "f31546e7-3b2e-4b17-8c77-cd84f38011c9"
+            "uid": "quickwit"
           },
           "metrics": [
             {
@@ -603,7 +603,7 @@
     {
       "datasource": {
         "type": "quickwit-quickwit-datasource",
-        "uid": "f31546e7-3b2e-4b17-8c77-cd84f38011c9"
+        "uid": "quickwit"
       },
       "description": "request rate per minute over last 3 minutes",
       "fieldConfig": {
@@ -710,7 +710,7 @@
           ],
           "datasource": {
             "type": "quickwit-quickwit-datasource",
-            "uid": "f31546e7-3b2e-4b17-8c77-cd84f38011c9"
+            "uid": "quickwit"
           },
           "metrics": [
             {
@@ -729,7 +729,7 @@
     {
       "datasource": {
         "type": "quickwit-quickwit-datasource",
-        "uid": "f31546e7-3b2e-4b17-8c77-cd84f38011c9"
+        "uid": "quickwit"
       },
       "description": "PR95 latency over last 3 minutes",
       "fieldConfig": {
@@ -832,7 +832,7 @@
           ],
           "datasource": {
             "type": "quickwit-quickwit-datasource",
-            "uid": "f31546e7-3b2e-4b17-8c77-cd84f38011c9"
+            "uid": "quickwit"
           },
           "metrics": [
             {
@@ -857,7 +857,7 @@
     {
       "datasource": {
         "type": "quickwit-quickwit-datasource",
-        "uid": "f31546e7-3b2e-4b17-8c77-cd84f38011c9"
+        "uid": "quickwit"
       },
       "description": "by route and http status code",
       "fieldConfig": {
@@ -927,7 +927,7 @@
           ],
           "datasource": {
             "type": "quickwit-quickwit-datasource",
-            "uid": "f31546e7-3b2e-4b17-8c77-cd84f38011c9"
+            "uid": "quickwit"
           },
           "metrics": [
             {
@@ -947,7 +947,7 @@
     {
       "datasource": {
         "type": "quickwit-quickwit-datasource",
-        "uid": "f31546e7-3b2e-4b17-8c77-cd84f38011c9"
+        "uid": "quickwit"
       },
       "description": "Details of each API",
       "fieldConfig": {
@@ -1092,7 +1092,7 @@
           ],
           "datasource": {
             "type": "quickwit-quickwit-datasource",
-            "uid": "f31546e7-3b2e-4b17-8c77-cd84f38011c9"
+            "uid": "quickwit"
           },
           "metrics": [
             {
@@ -1129,7 +1129,7 @@
           ],
           "datasource": {
             "type": "quickwit-quickwit-datasource",
-            "uid": "f31546e7-3b2e-4b17-8c77-cd84f38011c9"
+            "uid": "quickwit"
           },
           "metrics": [
             {
@@ -1167,7 +1167,7 @@
           ],
           "datasource": {
             "type": "quickwit-quickwit-datasource",
-            "uid": "f31546e7-3b2e-4b17-8c77-cd84f38011c9"
+            "uid": "quickwit"
           },
           "metrics": [
             {
@@ -1275,7 +1275,7 @@
         },
         "datasource": {
           "type": "quickwit-quickwit-datasource",
-          "uid": "f31546e7-3b2e-4b17-8c77-cd84f38011c9"
+          "uid": "quickwit"
         },
         "definition": "{\"find\": \"terms\", \"field\": \"span_attributes.http.route\", \"query\": \"*\"}",
         "hide": 0,
